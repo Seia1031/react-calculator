@@ -1,0 +1,27 @@
+.input {
+  display: flex;
+}
+
+.num-opt {
+  display: grid;
+  grid-template-rows: repeat(5, 72px);
+  grid-template-columns: repeat(3, 80px);
+  .option {
+    background-color: azure;
+  }
+  
+}
+
+.operators {
+  display: grid;
+  grid-template-columns: 80px;
+  grid-template-rows: repeat(5, 72px);
+  button {
+    background-color: #ED9E31;
+  }
+}
+
+.option, .number, .operator {
+  font-size: 32px;
+  border: 1px solid #000;
+}

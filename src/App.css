@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.header {
+  padding: 16px;
+  background-color: #000;
+  h1 {
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+  }
+}
+
+.calculator {
+  width: 320px;
+  height: 432px;
+  margin: 80px auto;
+  align-content: center;
+  
+}
+
+.result {
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 8px 0px;
+  margin-bottom: 4px;
+}
