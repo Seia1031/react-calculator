@@ -50,6 +50,14 @@ function App() {
           setDisabled(false);
           setResult(null);
           break;
+        case '±':
+          if (operator === null) setLeftNumber(prev => prev * (-1));
+          else setRightNumber(prev => prev * (-1));
+          break;
+        case '%':
+          if (operator === null) setLeftNumber(prev => prev / 100);
+          else setRightNumber(prev => prev / 100);
+          break;
       }
     }
     

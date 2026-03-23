@@ -1,8 +1,8 @@
 import './Buttons.css'
 
 export default function Buttons({onKeyPress}) {
-  const option = ["back", "C", "%"];
-  const numbers = [7, 8, 9, 4, 5, 6, 1, 2, 3, "±", 0, "."] //数字を扱う記号
+  const option = [" ", "C", "%"];
+  const numbers = [7, 8, 9, 4, 5, 6, 1, 2, 3, "±", 0, " "] //数字を扱う記号
   const operators = ["÷", "×", "ー", "＋", "="] //演算子ボタン
 
   return (
